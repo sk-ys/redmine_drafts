@@ -1,10 +1,10 @@
 # Japanese strings go here for Rails i18n
 ja:
-  label_draft_saved_time: "ドラフトは %{value} に保存されました。"
-  label_draft_pending: "%{time}前に保存されたドラフトがあります。 : %{restore} or %{delete}"
-  label_draft_restore: "復旧"
+  label_draft_saved_time: "下書きは %{value} に保存されました。"
+  label_draft_pending: "%{time}前に保存された下書きがあります。 : %{restore} or %{delete}"
+  label_draft_restore: "復元"
   label_draft_delete: "削除"
-  label_save_draft: "ドラフトを保存"
+  label_save_draft: "下書きを保存"
   message_failed_to_restore_attachment:
-    one: "1件の添付ファイルの復旧に失敗しました。"
-    other: "一部の添付ファイル (%{count} 件) の復旧に失敗しました。"
+    one: "1件の添付ファイルの復元に失敗しました。"
+    other: "一部の添付ファイル (%{count} 件) の復元に失敗しました。"
