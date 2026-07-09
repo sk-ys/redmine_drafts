@@ -1,3 +1,9 @@
 <% if User.current.logged? %>
-  <button class="icon icon-save save-draft-button" type="button"><%= I18n.t("label_save_draft") %></button>
+  <button class="icon icon-save save-draft-button" type="button">
+    <% if Redmine::VERSION::MAJOR >= 6 && respond_to?(:sprite_icon) %>
+      <%= sprite_icon('save', I18n.t("label_save_draft")) %>
+    <% else %>
+      <%= I18n.t("label_save_draft") %>
+    <% end %>
+  </button>
 <% end %>

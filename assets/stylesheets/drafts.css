@@ -4,8 +4,11 @@ button.save-draft-button {
     cursor: pointer;
     background-color: #fff;
     transition: background-color 100ms linear;
-    padding-left: 25px;
     background-position: 5px 50%;
+
+    &:not(:has(svg)) {
+        padding-left: 25px;
+    }
 }
 
 button.save-draft-button:hover {
